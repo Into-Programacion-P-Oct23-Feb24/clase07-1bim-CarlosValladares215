@@ -38,14 +38,15 @@ public class Ejemplo051 {
             calificacion = entrada.nextDouble();
             suma_total = suma_total + calificacion;
             
-            total = String.format("%s Calificacion ingresada: %s \n",total,calificacion);
+            total = String.format("%s Calificacion ingresada: %.2f \n",total,calificacion);
+            // total = String.format("%s\n%f",total,calificacion);
             // contador
             contador = contador + 1;
         }
         
         promedio_final = suma_total/limite;
         System.out.printf("%s \n", total);
-        System.out.printf("Promedio igual %f\n", promedio_final);
+        System.out.printf("Promedio igual %.2f\n", promedio_final);
         
     }
 }
