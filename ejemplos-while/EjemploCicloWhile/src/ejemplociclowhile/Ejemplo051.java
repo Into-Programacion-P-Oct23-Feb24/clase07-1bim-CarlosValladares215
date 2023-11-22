@@ -38,7 +38,7 @@ public class Ejemplo051 {
             calificacion = entrada.nextDouble();
             suma_total = suma_total + calificacion;
             
-            total = String.format("%s Calificacion ingresada: %.2f \n",total,calificacion);
+            total = String.format("%s Calificacion ingresada: %.1f \n",total,calificacion);
             // total = String.format("%s\n%f",total,calificacion);
             // contador
             contador = contador + 1;

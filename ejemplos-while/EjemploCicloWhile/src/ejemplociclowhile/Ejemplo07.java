@@ -13,7 +13,6 @@ import java.util.Scanner;
  * @author reroes
  */
 public class Ejemplo07 {
-
     /**
      * @param args the command line arguments
      */

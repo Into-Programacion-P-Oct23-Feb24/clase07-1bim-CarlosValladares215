@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo06 {
+public class Ejemplo061 {
     /**
      * @param args the command line arguments
      */
@@ -24,6 +24,8 @@ public class Ejemplo06 {
 
         double suma_total = 0;
         double calificacion;
+        double contador = 0;
+        double promedio = 0;
         boolean bandera = true;
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
@@ -37,7 +39,7 @@ public class Ejemplo06 {
                 calificacion = 20;
             }
             suma_total = suma_total + calificacion;
-
+            contador = contador +1;
             // proceso para salir del ciclo.
             System.out.println("Ingrese el valor -1 para salir del ciclo");
             int temporal = entrada.nextInt();
@@ -46,8 +48,11 @@ public class Ejemplo06 {
                 bandera = false;
             }
         }
-
+        
+        promedio = suma_total / contador;
         System.out.printf("Suma de calificaciones es %.2f\n", suma_total);
+        System.out.printf("Promedio igual a %.2f\n",promedio);
+        // suma y promedio
 
     }
 }
