@@ -26,6 +26,9 @@ public class Ejemplo03 {
         int suma = 0;
         int valor_ingresado;
         
+        // El ciclo repetitiva while realiza una suma de 5 numeros
+        // pidiendo valores por pantalla al usuario 
+        // presentando por pantalla el numero ingresado
         while (contador <= limite) { 
             System.out.println("Ingrese el valor a sumar");
             valor_ingresado = entrada.nextInt();
